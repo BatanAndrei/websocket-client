@@ -1,5 +1,5 @@
-import React, {useEffect, useRef, useState} from 'react';
-import axios from "axios";
+import React, {useRef, useState} from 'react';
+import './App.css';
 
 const App = () => {
     const [messages, setMessages] = useState([]);
